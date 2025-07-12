@@ -1,60 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Skill Swap Platform</title>
-  <link rel="icon" type="image/png" href="../assets/favicon.png" />
-
-  <link rel="stylesheet" href="../src/css/style.css" />
-</head>
-<body>
-
-  <!-- 🔐 Auth Modal -->
-  <div class="login-overlay" id="loginOverlay">
-    <div class="login-modal">
-      <h2 id="formTitle">Login</h2>
-      <input type="email" id="email" placeholder="Email" required />
-      <input type="password" id="password" placeholder="Password" required />
-      <input type="text" id="username" placeholder="Full Name" class="hidden" />
-<button type="button" onclick="submitAuth()">Continue</button>
-      <p id="toggleText">New here? <a onclick="toggleForm()">Create Account</a></p>
-    </div>
-  </div>
-
-  <!-- 🌟 Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to Skill Swap</h1>
-      <p>List your skills. Find matches. Learn together.</p>
-      <a href="#browse" class="cta-btn">Start Exploring</a>
-    </div>
-  </section>
-
-  <!-- 🔍 Search -->
-  <section class="search-bar">
-    <input type="text" id="skillSearch" placeholder="Search skills..." />
-    <button>Search</button>
-  </section>
-
-  <!-- 👥 Profiles -->
-  <section id="browse" class="profile-list">
-    <div class="profile-card">
-      <img src="../assets/images/user1.jpg" class="avatar" />
-      <h3>Sheetal Kumari</h3>
-      <p><strong>Skills:</strong> HTML, Photoshop</p>
-      <p><strong>Wants:</strong> Excel, Public Speaking</p>
-      <button class="swap-btn">Request Swap</button>
-    </div>
-    <div class="profile-card">
-      <img src="../assets/images/user2.jpg" class="avatar" />
-      <h3>Rohit Verma</h3>
-      <p><strong>Skills:</strong> JavaScript, Editing</p>
-      <p><strong>Wants:</strong> UI/UX, Blogging</p>
-      <button class="swap-btn">Request Swap</button>
-    </div>
-  </section>
-
-  <script src="../src/js/main.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>StackIt – Q&A Forum</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
 </html>
